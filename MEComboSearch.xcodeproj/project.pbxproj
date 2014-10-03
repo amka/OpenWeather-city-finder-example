@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1A674D19DF4748007CFCCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A674C19DF4748007CFCCF /* main.m */; };
+		2A1A675019DF4748007CFCCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A674F19DF4748007CFCCF /* AppDelegate.m */; };
+		2A1A675219DF4748007CFCCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A675119DF4748007CFCCF /* Images.xcassets */; };
+		2A1A675519DF4748007CFCCF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1A675319DF4748007CFCCF /* MainMenu.xib */; };
+		2A1A676119DF4748007CFCCF /* MEComboSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A676019DF4748007CFCCF /* MEComboSearchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A1A675B19DF4748007CFCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A1A673F19DF4748007CFCCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A1A674619DF4748007CFCCF;
+			remoteInfo = MEComboSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A1A674719DF4748007CFCCF /* MEComboSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEComboSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1A674B19DF4748007CFCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1A674C19DF4748007CFCCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A1A674E19DF4748007CFCCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A1A674F19DF4748007CFCCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A1A675119DF4748007CFCCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A1A675419DF4748007CFCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A1A675A19DF4748007CFCCF /* MEComboSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEComboSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1A675F19DF4748007CFCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1A676019DF4748007CFCCF /* MEComboSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEComboSearchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1A674419DF4748007CFCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1A675719DF4748007CFCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1A673E19DF4748007CFCCF = {
+			isa = PBXGroup;
+			children = (
+				2A1A674919DF4748007CFCCF /* MEComboSearch */,
+				2A1A675D19DF4748007CFCCF /* MEComboSearchTests */,
+				2A1A674819DF4748007CFCCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1A674819DF4748007CFCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A674719DF4748007CFCCF /* MEComboSearch.app */,
+				2A1A675A19DF4748007CFCCF /* MEComboSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1A674919DF4748007CFCCF /* MEComboSearch */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A674E19DF4748007CFCCF /* AppDelegate.h */,
+				2A1A674F19DF4748007CFCCF /* AppDelegate.m */,
+				2A1A675119DF4748007CFCCF /* Images.xcassets */,
+				2A1A675319DF4748007CFCCF /* MainMenu.xib */,
+				2A1A674A19DF4748007CFCCF /* Supporting Files */,
+			);
+			path = MEComboSearch;
+			sourceTree = "<group>";
+		};
+		2A1A674A19DF4748007CFCCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A674B19DF4748007CFCCF /* Info.plist */,
+				2A1A674C19DF4748007CFCCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A1A675D19DF4748007CFCCF /* MEComboSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A676019DF4748007CFCCF /* MEComboSearchTests.m */,
+				2A1A675E19DF4748007CFCCF /* Supporting Files */,
+			);
+			path = MEComboSearchTests;
+			sourceTree = "<group>";
+		};
+		2A1A675E19DF4748007CFCCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1A675F19DF4748007CFCCF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1A674619DF4748007CFCCF /* MEComboSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1A676419DF4749007CFCCF /* Build configuration list for PBXNativeTarget "MEComboSearch" */;
+			buildPhases = (
+				2A1A674319DF4748007CFCCF /* Sources */,
+				2A1A674419DF4748007CFCCF /* Frameworks */,
+				2A1A674519DF4748007CFCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEComboSearch;
+			productName = MEComboSearch;
+			productReference = 2A1A674719DF4748007CFCCF /* MEComboSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A1A675919DF4748007CFCCF /* MEComboSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1A676719DF4749007CFCCF /* Build configuration list for PBXNativeTarget "MEComboSearchTests" */;
+			buildPhases = (
+				2A1A675619DF4748007CFCCF /* Sources */,
+				2A1A675719DF4748007CFCCF /* Frameworks */,
+				2A1A675819DF4748007CFCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A1A675C19DF4748007CFCCF /* PBXTargetDependency */,
+			);
+			name = MEComboSearchTests;
+			productName = MEComboSearchTests;
+			productReference = 2A1A675A19DF4748007CFCCF /* MEComboSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1A673F19DF4748007CFCCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Andrey M";
+				TargetAttributes = {
+					2A1A674619DF4748007CFCCF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2A1A675919DF4748007CFCCF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2A1A674619DF4748007CFCCF;
+					};
+				};
+			};
+			buildConfigurationList = 2A1A674219DF4748007CFCCF /* Build configuration list for PBXProject "MEComboSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A1A673E19DF4748007CFCCF;
+			productRefGroup = 2A1A674819DF4748007CFCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1A674619DF4748007CFCCF /* MEComboSearch */,
+				2A1A675919DF4748007CFCCF /* MEComboSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1A674519DF4748007CFCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1A675219DF4748007CFCCF /* Images.xcassets in Resources */,
+				2A1A675519DF4748007CFCCF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1A675819DF4748007CFCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1A674319DF4748007CFCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1A675019DF4748007CFCCF /* AppDelegate.m in Sources */,
+				2A1A674D19DF4748007CFCCF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1A675619DF4748007CFCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1A676119DF4748007CFCCF /* MEComboSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A1A675C19DF4748007CFCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A1A674619DF4748007CFCCF /* MEComboSearch */;
+			targetProxy = 2A1A675B19DF4748007CFCCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A1A675319DF4748007CFCCF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1A675419DF4748007CFCCF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A1A676219DF4748007CFCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A1A676319DF4748007CFCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A1A676519DF4749007CFCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MEComboSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A1A676619DF4749007CFCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MEComboSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A1A676819DF4749007CFCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MEComboSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEComboSearch.app/Contents/MacOS/MEComboSearch";
+			};
+			name = Debug;
+		};
+		2A1A676919DF4749007CFCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MEComboSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MEComboSearch.app/Contents/MacOS/MEComboSearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1A674219DF4748007CFCCF /* Build configuration list for PBXProject "MEComboSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1A676219DF4748007CFCCF /* Debug */,
+				2A1A676319DF4748007CFCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1A676419DF4749007CFCCF /* Build configuration list for PBXNativeTarget "MEComboSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1A676519DF4749007CFCCF /* Debug */,
+				2A1A676619DF4749007CFCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A1A676719DF4749007CFCCF /* Build configuration list for PBXNativeTarget "MEComboSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1A676819DF4749007CFCCF /* Debug */,
+				2A1A676919DF4749007CFCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1A673F19DF4748007CFCCF /* Project object */;
+}
