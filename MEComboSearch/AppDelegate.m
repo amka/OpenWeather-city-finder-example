@@ -28,7 +28,7 @@
 - (IBAction)searchItems:(id)sender {
     [self.progressIndicator startAnimation:sender];
     
-    NSDictionary *params = @{@"units": @"metric", @"q": self.searchField.stringValue};
+    NSDictionary *params = @{@"units": @"metric", @"cnt": @"5", @"q": self.searchField.stringValue};
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:@"http://api.openweathermap.org/data/2.5/find" parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
